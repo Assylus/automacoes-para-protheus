@@ -6,7 +6,7 @@ utilizando o endpoint REST `FWModel/MATA030`.
 ## Pré-requisitos
 
 - Python 3.11+
-- Acesso à VPN da Green Máquinas (se necessário)
+- Acesso ao banco ou à API do concessionário
 - Credenciais de acesso ao Protheus
 
 ## Instalação
@@ -95,6 +95,6 @@ O script exibe um resumo antes de enviar e pede confirmação.
 ## Endpoint
 
 ```
-POST https://northgreen119546.protheus.cloudtotvs.com.br:4050/rest/fwmodel/MATA030
+POST https://***********:4050/rest/fwmodel/MATA030
 Auth: Basic Auth
 ```
