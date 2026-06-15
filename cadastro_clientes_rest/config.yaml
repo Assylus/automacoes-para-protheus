@@ -1,0 +1,18 @@
+protheus:
+  host: "https://northgreen119546.protheus.cloudtotvs.com.br"
+  port: 4050
+  endpoint: "/rest/fwmodel/MATA030"
+  usuario: "jose.macedo"
+  senha: "SENHA_AQUI"
+  verify_ssl: false
+  timeout: 30
+  delay_entre_registros: 1.0
+  max_retries: 2
+  filial: "  "
+
+arquivos:
+  entrada: "clientes_importar.xlsx"
+  log_dir: "./logs/"
+
+modo:
+  dry_run: false
